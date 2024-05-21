@@ -11,7 +11,6 @@ from app import app, productos, categorias, usuarios
 from bson.json_util import dumps
 from bson import ObjectId
 from flask import jsonify
-from bson import json_util
 
 
 

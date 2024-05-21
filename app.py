@@ -15,7 +15,7 @@ miConexion = pymongo.MongoClient('mongodb://localhost:27017')
 baseDatos = miConexion['CrudFlask']
 
 productos = baseDatos['productos']
-categorias = baseDatos['CATEGORIAS']
+categorias = baseDatos['categorias']
 usuarios = baseDatos['usuarios']
 
 from controlador.productosControler import *
